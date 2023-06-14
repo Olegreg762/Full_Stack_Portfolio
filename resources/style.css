@@ -10,6 +10,11 @@ body {
     color: cornsilk;
 }
 
+img {
+    max-width:  100px;
+    max-height: 100px;
+}
+
 nav {
     padding: 2%;
     text-align: center;
@@ -32,11 +37,16 @@ a{
     text-decoration: none;
 }
 
-.python {
- padding-top: 50%;
+.article {
+ padding-top: 5%;
+ padding-bottom: 5%;
 }
 
-#python_logo{
-    display: block;
-    margin: 10 auto;
+ #python_logo {
+    min-width: 300px;
+    min-height: 300px;
+} 
+
+footer{
+    padding-bottom: 2%;
 }
