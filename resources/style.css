@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    margin-left: .15%;
     
 }
 
@@ -12,6 +13,21 @@ body {
 
 img {
     max-width:  100px;
+    max-height: 100px;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+#python_logo {
+    min-width: 300px;
+    min-height: 300px;
+} 
+
+#solidity_logo{
+    padding-left: 10px;
+    min-width: 1px;
+    min-height: 100px;
+    max-width: none;
     max-height: 100px;
 }
 
@@ -42,11 +58,10 @@ a{
  padding-bottom: 5%;
 }
 
- #python_logo {
-    min-width: 300px;
-    min-height: 300px;
-} 
-
 footer{
     padding-bottom: 2%;
+}
+
+footer span{
+    font-size: 80%;
 }
