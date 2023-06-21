@@ -58,6 +58,24 @@ header ul li{
     
     
 }
+
+/* Styling for the h2 header */
+h2{
+    font-size: xx-large;
+}
+/* Applies padding to the top of the work header */
+#work{
+    padding-top: 5%;
+}
+/* Sets the margin on the about paragrap */
+#about_p{
+    margin-left: 3%;
+}
+/* Sets font size for the h3 header */
+h3{
+    font-size: x-large;
+}
+
 /* Styling for a */
 a{
     justify-content: center;
@@ -73,6 +91,7 @@ a:hover{
 .article {
  padding-top: 5%;
  padding-bottom: 5%;
+ margin-left: 3%;
 }
 /* Footer styling */
 footer{
